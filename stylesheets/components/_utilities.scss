@@ -1,0 +1,90 @@
+@import './custom-color';
+
+body{
+    background-color: $bgColor;
+}
+
+// background
+.bg-cover {
+    background-size: cover;
+    background-position: center center;
+}
+
+// write-mode
+.writing-md-vertical {
+    @media (min-width: 768px) {
+        writing-mode: vertical-rl;
+    }
+}
+
+// bg color, text color
+.bg-primary-lighter {
+    background-color: $lightGrey;
+}
+
+.text-primary-light {
+    color: $lightPrimary;
+}
+
+.text-primary-lighter {
+    color: $lightGrey;
+}
+
+.text-primary-bgColor {
+    color: $bgColor;
+}
+
+.border-primary-lighter {
+    border-color: $lightGrey;
+}
+
+.bg-md-primary {
+    @media(min-width: 768px) {
+        background-color: $horsetailGreen;
+    }
+}
+
+.text-md-white {
+    @media(min-width: 768px) {
+        color: #fff !important;
+    }
+}
+
+
+
+// 產品選單
+.list-group-item {
+    border: 1px solid $lightGrey;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    &:hover {
+        background-color: $lightGrey;
+    }
+
+    &.active {
+        background-color: $lightGrey;
+        border: 1px solid $lightGrey;
+    }
+}
+
+// Custom Social Button
+.custom-social-btn {
+    background-color: #fff;
+    border-color: $lightGrey;
+
+    &:hover {
+        background-color: #e6e6e6;
+        border-color: #c5d5cd;
+    }
+}
+
+// form
+.larger-form {
+    height: calc(3.875rem + 2px);
+}
+
+.negative-row-margin {
+    margin-left: -15px;
+    margin-right: -15px;
+}

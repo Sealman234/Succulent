@@ -1,0 +1,27 @@
+@import './custom-color';
+
+.custom-form {
+    background-color: $lightGrey;
+    position: relative;
+    padding-left: 60px;
+
+    .custom-form-icon {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .custom-form-input {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+}
+
+.custom-control-label::before{
+    background-color: $lightGrey;
+    border: 0;
+}

@@ -1,0 +1,30 @@
+@import './custom-color';
+
+.checkout {
+    input, select{
+        background-color: $bgColor;
+    }
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    input::placeholder {
+        color: $lightPrimary;
+        opacity: 1;
+    }
+
+    .invoice-border {
+        border: $bgColor 1px solid;
+    }
+
+    .invoice-block {
+        font-size: 24px;
+        padding: 11px 0px;
+        margin-bottom: 8px;
+        background-color: $bgColor;
+    }
+
+    .m-invoice-no-hover:hover{
+        color: $lightGrey !important;
+    }
+    .e-invoice-no-hover:hover{
+        color: $horsetailGreen !important;
+    }
+}

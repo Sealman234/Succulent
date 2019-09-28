@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>來點多肉吧 - 首頁</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Bootstrap, SASS, SCSS, Sweetaste,甜點電商, hexschool, 六角學院,">
+    <meta property="description" content="六角學院 Bootstrap 課程最終作業，使用 Bootstrap 結合 SCSS 製作完成">
+    <!-- Facebook -->
+    <meta property="og:title" content="Sweetaste 六角甜點工坊">
+    <meta property="og:description" content="六角學院 Bootstrap 課程最終作業">
+    <meta property="og:locale" content="zh_tw">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sealman234.github.io/Sweetaste/">
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1473256599800-b48c7c88cd7e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ae0d68ab0db4ee79bdce92722b31112b&auto=format&fit=crop&w=2725&q=80">
+    <!-- logo -->
+    <link rel="icon" href="./images/favicon.ico">
+    <!-- Font Awesome 4.7.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./stylesheets/all.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+            <!-- menu toggle button -->
+            <button class="navbar-toggler d-flex align-items-center border-0 d-md-none" type="button"
+                data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="material-icons">menu</i>
+            </button>
+            <!-- brand logo -->
+            <a class="navbar-brand" href="./index.html">
+                <!-- 電腦版 logo -->
+                <img src="./images/botanic.svg" height="40" class="d-none d-md-inline-block">
+                <img src="./images/logo.png" height="40" class="d-none d-md-inline-block">
+                <!-- 手機板 logo -->
+                <img src="./images/botanic.svg" height="28" class="d-inline-block d-md-none">
+                <img src="./images/logo.png" height="28" class="d-inline-block d-md-none" >
+            </a>
+            <!-- cart link -->
+            <a class="nav-link d-flex align-items-center order-md-1" style="font-size: 24px;" href="./cart.html">
+                <i class="material-icons">shopping_cart</i>
+            </a>
+            <!-- dropdown menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- 靠右 -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">首頁 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./product.html">多肉</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./login.html">登入</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="container px-0 px-md-3">
+        <header class="header">
+            <!-- (背景圖)圖片取代文字 -->
+            <div class="bg-cover"
+                style="background-image: url(./images/banner-img-1.jpeg); height: 496px;">
+                <h1 class="text-hide">六角甜點工坊</h1>
+            </div>
+            <!-- 毛玻璃 -->
+            <div class="row justify-content-center no-gutters" style="margin-top: -83px;">
+                <div class="col-md-10">
+                    <div class="row no-gutters">
+                        <a href="#" class="col-4 frosted-wrap active">
+                            <span class="frosted-text">本日精選</span>
+                            <div class="frosted-image bg-cover"
+                                style="background-image: url(./images/product-1.jpg)">
+                            </div>
+                        </a>
+                        <a href="#" class="col-4 frosted-wrap" style="border-left: 1px solid #fff;">
+                            <span class="frosted-text">人氣推薦</span>
+                            <div class="frosted-image bg-cover"
+                                style="background-image: url(./images/product-7.jpg)">
+                            </div>
+                        </a>
+                        <a href="#" class="col-4 frosted-wrap" style="border-left: 1px solid #fff;">
+                            <span class="frosted-text">新品上市</span>
+                            <div class="frosted-image bg-cover"
+                                style="background-image: url(./images/product-5.jpg)">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- Section -->
+    <section class="section my-md-9">
+        <!-- (標語) 在 md 以上隱藏 -->
+        <div class="row justify-content-center d-md-none no-gutters">
+            <div class="col-6">
+                <img src="./images/sm-為什麼選擇了養多肉.png" class="my-5 img-fluid">
+            </div>
+        </div>
+        <div class="bg-primary-lighter">
+            <div class="container">
+                <div class="row">
+                    <!-- 甜點圖片 -->
+                    <div class="col-md-6 section-image-block">
+                        <div class="bg-cover h-100 section-image"
+                            style="background-image: url(./images/section-img-1.jpg);">
+                        </div>
+                    </div>
+                    <!-- 垂直的文字內容 -->
+                    <div class="col-md-6 vertical-content d-flex justify-content-end">
+                        <div class="writing-md-vertical text-primary-light py-5 py-md-7 mr-auto">
+                            <p class="mb-0">多肉植物又被稱作肉質植物，種類多樣，主要生長於沙漠及海岸乾旱地區。</p>
+                            <p class="mb-0">多肉植物的根、莖特別肥大，葉片退化，以利於儲存大量的水分。</p>
+                            <p class="mb-0">仙人掌亦可算是一種多肉植物，而相較於仙人掌科，其他的多肉植物並無「刺座」的組織。</p>
+                        </div>
+                        <!-- (標語) 在 md 以上會顯示 -->
+                        <div class="d-none d-md-block section-image-block">
+                            <img src="./images/lg-為什麼選擇了養多肉.png" width="96">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section my-md-9">
+        <div class="row justify-content-center d-md-none no-gutters">
+            <div class="col-6">
+                <img src="./images/sm-為什麼一定要養多肉.png" class="my-5 img-fluid">
+            </div>
+        </div>
+        <div class="bg-primary-lighter">
+            <div class="container">
+                <!-- (反轉) 調換圖片與文字內容的位置 -->
+                <div class="row flex-row-reverse">
+                    <div class="col-md-6 section-image-block">
+                        <div class="bg-cover h-100 section-image"
+                            style="background-image: url(./images/section-img-2.jpg);">
+                        </div>
+                    </div>
+                    <!-- 要用 end 標語才會向左遠離甜點圖片 -->
+                    <div class="col-md-6 vertical-content d-flex justify-content-end">
+                        <div class="writing-md-vertical text-primary-light py-5 py-md-7 mr-auto">
+                            <p class="mb-0">多肉植物造型多變，有的長得像一串小鈴鐺，有的像兔耳朵或熊爪子，可愛的模樣看了心都會融化，圓圓胖胖、喜感逗趣的模樣讓人一眼看了就愛上。</p>
+                            <p class="mb-0">而且多肉天性堅韌，幾個星期不澆水也活得下去，很適合忙碌健忘的現代人。</p>
+                            <p class="mb-0">多肉的繁殖方式也相當簡單，只要丟一片葉子就會自己長出根，再加上多肉個子不大、不需要太大的空間。</p>
+                        </div>
+                        <div class="d-none d-md-block section-image-block">
+                            <img src="./images/lg-為什麼一定要養多肉.png" width="96">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my-5 my-md-9 text-center">
+        <img src="./images/sm-想養多肉是不需要理由的.png" class="img-fluid d-md-none" width="256">
+        <img src="./images/lg-想養多肉是不需要理由的.png" class="img-fluid d-none d-md-inline-block" width="89">
+    </section>
+
+    <!-- Item Card -->
+    <section class="container my-5 my-md-7">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="item-card mb-4">
+                    <!-- item-image -->
+                    <div class="item-image bg-cover"
+                        style="background-image: url(./images/product-1.jpg);">
+                        <div class="item-tag">本日精選</div>
+                        <div class="item-icon text-primary">
+                            <i class="material-icons heart_border">
+                                favorite_border
+                            </i>
+                            <i class="material-icons heart d-none">
+                                favorite
+                            </i>
+                        </div>
+                    </div>
+                    <!-- item-info -->
+                    <div class="row no-gutters item-info d-flex justify-content-center">
+                        <div class="col item-name text-primary">多肉交響曲</div>
+                        <div class="col item-price text-primary text-strong"><strong>NT$ 450</strong></div>
+                    </div>
+                    <!-- item-cart -->
+                    <a href="#" class="btn btn-block btn-primary-lighter item-cart">加入購物車</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item-card mb-4">
+                    <div class="item-image bg-cover"
+                        style="background-image: url(./images/product-2.jpg);">
+                        <div class="item-tag">本日精選</div>
+                        <div class="item-icon text-primary">
+                            <i class="material-icons heart_border">
+                                favorite_border
+                            </i>
+                            <i class="material-icons heart d-none">
+                                favorite
+                            </i>
+                        </div>
+                    </div>
+                    <div class="row no-gutters item-info d-flex justify-content-center">
+                        <div class="col item-name text-primary">仙人掌派對</div>
+                        <div class="col item-price text-primary text-strong"><strong>NT$ 450</strong></div>
+                    </div>
+                    <a href="#" class="btn btn-block btn-primary-lighter item-cart">加入購物車</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item-card mb-4">
+                    <div class="item-image bg-cover"
+                        style="background-image: url(./images/product-3.jpg);">
+                        <div class="item-tag">本日精選</div>
+                        <div class="item-icon text-primary">
+                            <i class="material-icons heart_border">
+                                favorite_border
+                            </i>
+                            <i class="material-icons heart d-none">
+                                favorite
+                            </i>
+                        </div>
+                    </div>
+                    <div class="row no-gutters item-info d-flex justify-content-center">
+                        <div class="col item-name text-primary">多肉馬克杯</div>
+                        <div class="col item-price text-primary text-strong"><strong>NT$ 450</strong></div>
+                    </div>
+                    <a href="#" class="btn btn-block btn-primary-lighter item-cart">加入購物車</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 訂閱郵件 -->
+    <section class="py-5 bg-primary">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- 上半 -->
+                <div
+                    class="col-md-5 d-flex align-items-center justify-content-center justify-content-md-start mb-4 mb-md-0">
+                    <img src="./images/botanic.svg" height="40">
+                    <span class="h4 text-white mb-0 mx-3">訂閱你我的甜蜜郵件</span>
+                </div>
+                <!-- 下半 -->
+                <div class="col-md-5">
+                    <div class="custom-form d-flex">
+                        <label for="subscription" class="material-icons custom-form-icon text-primary">
+                            email
+                        </label>
+                        <input type="email" id="subscription" class="custom-form-input">
+                        <button class="btn btn-accent btn-lg d-flex align-items-center" style="padding: 1rem 1rem;">
+                            <i class="material-icons">
+                                arrow_forward
+                            </i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-primary-lighter">
+        <div class="container">
+            <!-- 上半 -->
+            <div class="row justify-content-center">
+                <div class="col-md-5 d-flex flex-column justify-content-between">
+                    <!-- 要用 div 包住不然圖片寬度會跑掉 -->
+                    <div>
+                        <img src="./images/logo-dark.PNG" height="27">
+                    </div>
+                    <ul class="list-unstyled mt-5 text-primary">
+                        <li>06-1234-5678</li>
+                        <li><a href="mailto:succulent@email.com">succulent@email.com</a></li>
+                        <li>710 台南市永康區幸福路 520 號</li>
+                    </ul>
+                </div>
+                <div class="col-md-5 d-none d-md-block text-right">
+                    <img src="./images/今天是個養多肉的好日子.png" width="60">
+                </div>
+            </div>
+            <!-- 下半 -->
+            <div class="row mt-4 justify-content-center">
+                <div class="col-md-5 mt-2">
+                    <img src="./images/ic-line@.svg" height="32" width="32">
+                    <img src="./images/ic-facebook.svg" height="32" width="32">
+                </div>
+                <div class="col-md-5 text-md-right mt-2">
+                    <span class="text-primary">© 2019 Succulent* All Rights Reserved</span>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!-- Custom JS -->
+    <script src="./js/all.js"></script>
+</body>
+
+</html>

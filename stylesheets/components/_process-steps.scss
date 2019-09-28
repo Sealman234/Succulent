@@ -1,0 +1,71 @@
+@import './custom-color';
+
+.process-steps {
+    position: relative;
+
+    // 細細的橫線
+    &::after {
+        content: " ";
+        display: block;
+        height: 1px;
+        background-color: $bgColor;
+        position: absolute;
+        top: 50%;
+        // 左右稱滿線條
+        left: 0;
+        right: 0;
+    }
+
+    // 三個空圈圈
+    .process-circle {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid $bgColor;
+        z-index: 1; // 在線之上
+        background-color: $horsetailGreen;
+        // 用 flex 置中圖示
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    // 當前頁面 (雙層白色圈圈)
+    .active {
+        border-color: $bgColor; // 改顏色 讓當前頁面多一圈 border
+
+        &::after {
+            content: " ";
+            display: block;
+            height: 14px;
+            width: 14px;
+            border-radius: 50%;
+            background-color: $bgColor;
+        }
+    }
+
+    // 已完成頁面 (塗滿白底加上綠色勾勾)
+    .completed {
+        font-size: 1rem;
+        background-color: $bgColor;
+        color: $horsetailGreen;
+    }
+}
+
+// 付款成功頁面的調整
+.process-steps-end {
+
+    // 細線
+    &::after {
+        background-color: $lightGrey;
+    }
+
+    // 付款成功
+    .checkout-success {
+        font-size: 1rem;
+        background-color: $lightGrey;
+        color: $horsetailGreen;
+        border-color: $lightGrey;
+        font-weight: bold;
+    }
+}
