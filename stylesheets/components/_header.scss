@@ -23,7 +23,7 @@
         left: -10px;
         right: -10px;
         bottom: -10px;
-        background-color: rgba(48, 64, 47, 0.8);
+        background-color: rgba($horsetailGreen, .8);
         transition: background-color .5s;
         z-index: -1; // 因為文字的 z-index 是 0
     }
@@ -32,7 +32,7 @@
     &.active::after,
     &:hover::after,
     &:focus::after {
-        background-color: rgba(213, 133, 104, 0.8);
+        background-color: rgba($accentRed, .8);
     }
 
     .frosted-text {

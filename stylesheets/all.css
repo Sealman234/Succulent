@@ -12102,22 +12102,22 @@ a.text-accent:hover, a.text-accent:focus {
 }
 
 .checkout input::-webkit-input-placeholder {
-  color: #577160;
+  color: #30402f;
   opacity: 1;
 }
 
 .checkout input:-ms-input-placeholder {
-  color: #577160;
+  color: #30402f;
   opacity: 1;
 }
 
 .checkout input::-ms-input-placeholder {
-  color: #577160;
+  color: #30402f;
   opacity: 1;
 }
 
 .checkout input::placeholder {
-  color: #577160;
+  color: #30402f;
   opacity: 1;
 }
 
@@ -12308,7 +12308,7 @@ body {
 }
 
 .text-primary-light {
-  color: #577160;
+  color: #30402f;
 }
 
 .text-primary-lighter {
