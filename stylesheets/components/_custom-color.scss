@@ -1,6 +1,6 @@
 $horsetailGreen: #30402F; // 主色
 // $lightPrimary: #577160;
-$lightPrimary: lighten($horsetailGreen, 0.15); // Section 文字顏色
+$lightPrimary: lighten($horsetailGreen, 15%); // Section 文字顏色
 $lightGrey: #BCD0B3; // Section 背景顏色
 // $lighterGreen: #c9d9c2;
 $lighterGreen: tint($lightGrey, 20%); // 按鈕底色
